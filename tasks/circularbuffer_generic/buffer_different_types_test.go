@@ -1,6 +1,8 @@
 package circularbuffer_generic
 
-import "fmt"
+/* Entfernen Sie die Kommentarzeilen hier und am Ende der Datei, um die Tests auszuführen.
+   Die Tests können erst compiliert werden, wenn Sie die Implementierung angepasst haben.
+
 
 // ExampleCircularbuffer_string demonstrates the usage
 // of the Circularbuffer with strings as elements.
@@ -63,3 +65,5 @@ func ExampleCircularbuffer_custom() {
 	// {Lindenstrasse München}: circularbuffer_generic.Address
 	// {Kaiserstrasse Hamburg}: circularbuffer_generic.Address
 }
+
+*/
