@@ -19,15 +19,20 @@ Beim Weiterschieben der Zeiger wird der Index modulo der Puffergröße genommen.
 
 ### Aufgabe 1
 
-Im Package `circularbuffer` ist ein Typ `CircularBuffer` definiert,
+Im Package `tasks/circularbuffer` ist ein Typ `CircularBuffer` definiert,
 die Methoden sind aber noch nicht vollständig implementiert.
-Vervollständigen Sie dieses Package, so dass die Tests in `circularbuffer/buffer_test.go`
-und `circularbuffer/buffer_empty_test.go` erfolgreich durchlaufen.
+Vervollständigen Sie dieses Package, so dass die Tests in `tasks/circularbuffer/buffer_test.go`
+und `tasks/circularbuffer/buffer_empty_test.go` erfolgreich durchlaufen.
+
+*Anmerkung:* In den Verzeichnissen `hints` und `solutions`
+finden Sie Hinweise und eine mögliche Lösung.
 
 ### Aufgabe 2
 
 Die Implementierung in `circularbuffer/buffer.go` erlaubt es, beliebige Typen
 im Puffer miteinander zu mischen.
+Dies wird auch in der Datei `buffer_different_types_test.go` im Lösungs-Package demonstriert.
+
 Verwenden Sie Generics, um den Typ des Puffers zu parametrisieren,
 so dass nur Elemente eines bestimmten Typs im Puffer gespeichert werden können.
 Passen Sie die Tests in `circularbuffer/buffer_test.go` und `circularbuffer/buffer_empty_test.go`
