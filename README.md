@@ -37,3 +37,10 @@ Verwenden Sie Generics, um den Typ des Puffers zu parametrisieren,
 so dass nur Elemente eines bestimmten Typs im Puffer gespeichert werden können.
 Passen Sie die Tests in `circularbuffer/buffer_test.go` und `circularbuffer/buffer_empty_test.go`
 entsprechend an.
+
+*Anmerkung:* Im den Verzeichniss `tasks/circularbuffer_generic` finden Sie einen
+Anfang, bei dem die Buffer-Impelementierung aus der Lösung zu Aufgabe 1
+zusammen mit einem Test vorgegeben ist, der zeigt, wie es am Ende funktionieren sollte.
+Diese Vorgabe compiliert aber nicht. Ihre Aufgabe ist es, die Buffer-Implementierung
+anzupassen. Alternativ zur Vorgabe können Sie auch Ihre Lösung zu Aufgabe 1
+verwenden.
